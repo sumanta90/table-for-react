@@ -1,0 +1,24 @@
+{
+  "name": "table-for-react-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "table-for-react-demo"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w table-for-react-demo",
+    "build:lib": "npm run build -w table-for-react",
+    "build:demo": "npm run build -w table-for-react-demo",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0"
+  }
+}

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+/* Alias maps only the JS entry → use the file path here (matches `table-for-react/base.css`). */
+@import "../../packages/table-for-react/styles/base.css";
+/** Ensure utilities used inside the library preset are scanned (card slots, pagination, …). */
+@source "../../packages/table-for-react/src/**/*.{js,jsx}";
+
+:root {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}

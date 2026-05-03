@@ -1,0 +1,22 @@
+{
+  "name": "table-for-react-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "table-for-react": "file:../packages/table-for-react",
+    "@tailwindcss/vite": "^4.1.16",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^4.1.0",
+    "vite": "^7.1.7"
+  }
+}

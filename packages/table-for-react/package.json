@@ -1,0 +1,40 @@
+{
+  "name": "table-for-react",
+  "version": "0.2.0",
+  "description": "Framework-flexible React data table — optional Tailwind presets, semantic CSS hooks, and swappable primitives (Ant Design-friendly).",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./base.css": "./styles/base.css"
+  },
+  "files": ["dist", "styles", "README.md"],
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^4.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.7"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "data-table",
+    "tailwind",
+    "antd",
+    "headless"
+  ]
+}
