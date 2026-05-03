@@ -1,0 +1,41 @@
+# Publishes `packages/table-for-react` using an npm automation token from a GitHub Environment.
+#
+# Setup:
+# 1. Repo → Settings → Environments → create environment named `npm` (or change `environment:` below).
+# 2. In that environment, add a secret named exactly: npm_token
+#    (npmjs.com → Access Tokens → Granular or Classic token with publish scope for this package.)
+# 3. Bump packages/table-for-react/package.json version, push, then tag:
+#      git tag v1.0.1 && git push origin v1.0.1
+#
+# https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment
+
+name: Publish table-for-react to npm
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: npm
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Publish to npm (workspace package)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+        run: npm publish -w table-for-react --access public

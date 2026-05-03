@@ -1,7 +1,16 @@
 {
   "name": "table-for-react",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Framework-flexible React data table — optional Tailwind presets, semantic CSS hooks, and swappable primitives (Ant Design-friendly).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanta90/table-for-react.git",
+    "directory": "packages/table-for-react"
+  },
+  "bugs": {
+    "url": "https://github.com/sumanta90/table-for-react/issues"
+  },
+  "homepage": "https://github.com/sumanta90/table-for-react#readme",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
