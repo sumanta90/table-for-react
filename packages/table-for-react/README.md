@@ -2,11 +2,19 @@
 
 A React table/card component that stays **easy to pair with Tailwind**, **Ant Design**, **your own CSS**, or **plain variables** — without locking you into one styling system.
 
+### Do give me a star on github : [table-for-react](https://github.com/sumanta90/table-for-react)
+### Demo you can try on local: [table-for-react demo](https://github.com/sumanta90/table-for-react/tree/main/table-for-react-demo)
+
 ## Install
 
 ```bash
 npm install table-for-react react react-dom
 ```
+
+## Overall tabvle view
+![Alt text](../../table-for-react-demo-images/primary-demo.png)
+<img width="550"  alt="image" src="../../table-for-react-demo-images/primary-demo.png" />
+
 
 ## Quick patterns
 

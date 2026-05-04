@@ -4,8 +4,7 @@
   "description": "Framework-flexible React data table — optional Tailwind presets, semantic CSS hooks, and swappable primitives (Ant Design-friendly).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sumanta90/table-for-react.git",
-    "directory": "packages/table-for-react"
+    "url": "git+https://github.com/sumanta90/table-for-react.git"
   },
   "bugs": {
     "url": "https://github.com/sumanta90/table-for-react/issues"
@@ -44,6 +43,9 @@
     "data-table",
     "tailwind",
     "antd",
-    "headless"
+    "headless",
+    "datagrid",
+    "grid",
+    "pagination"
   ]
 }
