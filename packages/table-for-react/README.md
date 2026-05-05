@@ -12,7 +12,7 @@ npm install table-for-react react react-dom
 ```
 
 ## Overall tabvle view
-![Infinite Table for React configured with grouping, multi-selection, aggregations and custom styling.](https://infinite-table.com/full-demo-image.png "Infinite Table demo")
+![Infinite Table for React configured with grouping, multi-selection, aggregations and custom styling.](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/primary-demo.png "Infinite Table demo")
 
 
 
