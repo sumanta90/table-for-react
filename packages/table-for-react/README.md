@@ -2,11 +2,44 @@
 
 A React table/card component that stays **easy to pair with Tailwind**, **Ant Design**, **your own CSS**, or **plain variables** — without locking you into one styling system.
 
+### Do give me a star on github : [Table for React](https://github.com/sumanta90/table-for-react)
+### Demo you can try on local: [Demo](https://github.com/sumanta90/table-for-react/tree/main/table-for-react-demo)
+### Examples: [Here](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/examples.md)
 ## Install
 
 ```bash
 npm install table-for-react react react-dom
 ```
+
+## Overall tabvle view
+![Primary Demo](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/primary-demo.png "Primary demo")
+
+### Card view with Grid layout
+![Card view with Grid layout](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/card-view-grid-layout.png "card view")
+
+### Card view with list layout
+![Card view with Grid layout](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/card-view-list-layout.png "card view")
+
+### Column filter option using contains
+![column filter option](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/column-filter-option-contains.png "column filter option")
+
+### column filter option using select
+![column filter option](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/column-filter-option.png "column select filter option")
+
+
+### Select columns on runtime.
+![select columns on runtime](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/control-columns-on-view.png "select column on runtime")
+
+
+### export specific columns as CSV
+![export selected](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/export%20specific.png "export sdelected columns")
+
+
+### Render additional actions buttons
+![render action buttons](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/render-action-buttons.png "render action buttons")
+
+
+
 
 ## Quick patterns
 
