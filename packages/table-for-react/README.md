@@ -4,7 +4,7 @@ A React table/card component that stays **easy to pair with Tailwind**, **Ant De
 
 ### Do give me a star on github : [Table for React](https://github.com/sumanta90/table-for-react)
 ### Demo you can try on local: [Demo](https://github.com/sumanta90/table-for-react/tree/main/table-for-react-demo)
-
+### Examples: [Here](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/examples.md)
 ## Install
 
 ```bash
