@@ -18,7 +18,7 @@ npm install table-for-react react react-dom
 ![Card view with Grid layout](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/card-view-grid-layout.png "card view")
 
 ### Card view with list layout
-![Card view with Grid layout](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/card-view-list-layout.png, "card view")
+![Card view with Grid layout](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/card-view-list-layout.png "card view")
 
 ### Column filter option using contains
 ![column filter option](https://github.com/sumanta90/table-for-react/blob/docs/table-for-react-demo/table-for-react-demo-images/column-filter-option-contains.png "column filter option")
